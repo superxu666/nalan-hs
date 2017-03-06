@@ -1,0 +1,516 @@
+
+/*公用*/
+.comWidth { 
+	width: 1000px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.body {
+	background-color: #fcfcfc;
+}
+
+.home {
+	height: 18px;
+	vertical-align: center;
+}
+.home a {
+	float: right;
+	height: 12px;
+	line-height: 12px;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+.home a:hover {
+	color: #f60;
+}
+
+.logo_inputtext { 
+	height: 63px; 
+}
+.logo {
+	float: left;
+}
+.logo img {}
+
+.input_box {
+	float: right;
+	height: 63px;
+}
+.inputtext {
+	margin-top: 28px;
+}
+.inputtext span{
+	color: #7a7a7a;
+}
+.inputtext input {
+	background-color: #f6f7f7;
+	border: 1px solid #dcdddd;
+	height: 19px;
+	margin-left: 16px;
+}
+
+.nav {
+	height: 47px;
+}
+.nav ul {
+	height: 47px;
+	float: left;
+	margin-top: 18px;
+}
+.nav li {
+	float: left;
+	width: 80px;
+	border-right: 1px solid #e1e3e6;
+	margin-right: 5px;
+	text-align: center;
+}
+.nav li a{
+	color: #7a7a7a;
+}
+.nav li a:hover{
+	color: #f60;
+}
+
+/*----------------------ad----------------------*/
+.ad {
+	height: 412px;
+	background: url("../images/pic/big_ad.png");
+	border-top: 1px solid #fff;
+}
+.black_bg {
+	height: 102px;
+	background-color: #000000;
+	opacity: 0.6;
+	margin-top: 309px;
+}
+.smallAd_content {
+	height: 102px;
+}
+.smallAd_content dl {
+	float: left;
+	width: 238px;
+	margin-top: 18px;
+}
+.smallAd_content dt {
+	float: left;
+}
+.smallAd_content dd {
+	float: right;
+	width: 152px;
+}
+.smallAd_content dd h3 {
+	color: #fff;
+}
+.smallAd_content dd p {
+	color: #fff;
+}
+/*----------------------------portrait---------------------------*/
+.portrait {
+	height: 254px;
+}
+.portrait_left {
+	width: 652px;
+	height: 230px;
+	margin-top: 24px;
+	padding-left: 27px;
+	float: left;
+}
+.title {}
+.title img {}
+.portrait_content {}
+.portrait_content dl {
+	float: left;
+}
+.portrait_content dt {
+	margin: 8px;
+}
+.portrait_content dt img {
+	border: 3px solid #e6e6e6;
+	border-radius: 3px;
+}
+.portrait_content dd p {
+	text-align: center;
+	color: #a7a4a4;
+}
+
+/*---------------------------portrait_right--------------------*/
+.portrait_right {
+	float: right;
+	width: 321px;
+	height: 230px;
+	margin-top: 24px;
+}
+.portrait_right .title {
+	height: 22px;
+}
+.portrait_right h3 {
+	text-align: center;
+	color: #f86e9e;
+}
+.portrait_right p {}
+.portrait_right .activity_list {
+	color: #7d7d7d;
+	width: 281px;
+	height: 140px;
+	padding-top: 13px;
+}
+.portrait_right dl {}
+.portrait_right dt {
+	width: 61px;
+	height: 44px;
+	float: left;
+}
+.portrait_right dd {
+	width: 194px;
+	height: 47px;
+	float: left;
+	margin-left: 12px;
+}
+.portrait_right dd p {
+	height: 20px;
+	line-height: 20px;
+}
+.portrait_right dd span {
+	display: block;
+	height: 24px;
+	line-height: 24px;
+}
+.portrait_right dd p a {}
+.portrait_right dd p a:hover {
+	color: #f60;
+}
+.portrait_right dd span {}
+
+/*---------------------------workshow--------------------*/
+
+.workshow {
+	height: 428px;
+	/*background-color: red;*/
+}
+.workshow .title,
+.business .title,
+.showdress .title,
+.actions .title,
+.showlove .title {
+	height: 28px;
+}
+.workshow .title img,
+.business .title img,
+.showdress .title img {
+	float: left;
+	margin-left: 27px;
+}
+.workshow .title a,
+.business .title a,
+.showdress .title a,
+.actions .title a {
+	float: right;
+	color: #fff;
+	display: block;
+	width: 50px;
+	height: 20px;
+	background-color: #f9733d;
+	margin-right: 45px;
+	text-align: center;
+	line-height: 20px;
+}
+
+/*---------------------------workshow_wrap--------------------*/
+.workshow_wrap {
+	height: 400px;
+	background: url("../images/pic/kuang.gif") no-repeat;
+}
+.workshow_wrap .workshow_left {
+	float: left;
+	width: 231px;
+	height: 383px;
+	padding-top: 17px;
+	padding-left: 20px;
+	text-align: center;
+}
+.workshow_wrap img {
+	border: 3px solid #e6e5e1;
+	border-radius: 3px;
+}
+.workshow_wrap .workshow_left dd {
+	width: 213px;
+	height: 31px;
+	background-color: #f2f2f1;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+
+.workshow_wrap .workshow_right {
+	width: 749px;
+	height: 383px;
+	float: right;
+	padding-top: 17px;
+}
+.workshow_wrap .workshow_right dl {
+	float: left;
+	width: 225px;
+	height: 182px;
+}
+
+.workshow_wrap .workshow_right dt img{
+
+}
+.workshow_wrap .workshow_right dd {
+	height: 25px;
+	width: 200px;
+	background-color: #f2f2f1;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+}
+.workshow_wrap .workshow_right dd span {
+	color: #747070;
+	line-height: 25px;
+	float: left;
+}
+.workshow_wrap .workshow_right .timespan {
+	float: right;
+}
+
+
+/*---------------------------all_left--------------------*/
+
+.all_left {
+	width: 628px;
+	float: left;
+}
+
+/*---------------------------business--------------------*/
+
+.business {
+	width: 628px;
+	height: 280px;
+}
+
+.business .title {}
+.business .title img {}
+.business .title a {}
+
+.business_content {}
+.business_content dl {
+
+	float: left;
+}
+.business_content dt {
+	float: left;
+	width: 103px;
+}
+.business_content dt a {
+	display: block;
+	color: #fff;
+	display: block;
+	width: 50px;
+	height: 20px;
+	background-color: #f86e9e;
+	text-align: center;
+	line-height: 20px;
+	margin: 0 auto;
+}
+.business_content dd {
+	float: right;
+	width: 211px;
+}
+.business_content dd h3 {
+	color: #f86e9e;
+}
+.business_content dd p {}
+
+.bottom_bg {}
+.bottom_bg img{
+	width: 628px;
+	margin-top: 24px;
+}
+
+/*---------------------------showdress--------------------*/
+.showdress {
+	width: 628px;
+}
+
+.showdress .title {}
+
+.showdress_content {}
+.showdress_content ul {}
+.showdress_content li {
+	float: left;
+	margin-left: 14px;
+}
+
+/*---------------------------actions--------------------*/
+
+.actions {
+	width: 628px;
+}
+.actions .titl {}
+.actions .title img {
+	margin-left: 27px;
+}
+.actions_titleright {
+	float: right;
+}
+.actions_content h4 {
+	text-align: center;
+	color: #f86e9e;
+}
+.actions_left {
+	float: left;
+	width: 330px;
+}
+.actions_left dt {
+	float: left;
+	width: 154px;
+}
+.actions_left dd {
+	float: right;
+	width: 176px;
+}
+.actions_left li {
+	width: 322px;
+	padding-left: 8px;
+	margin-bottom: 2px;
+}
+.actions_right {
+	float: right;
+	width: 292px;
+}
+.actions_right li {
+	width: 270px;
+	border-bottom: 1px dotted #bfbfbf;
+	padding-left: 8px;
+	margin-bottom: 2px;
+}
+.actions li {
+	background: url("../images/actions/li_bg.gif") no-repeat left center;
+}
+
+/*---------------------------all_right--------------------*/
+
+.all_right {
+	width: 372px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+/*---------------------------showlove--------------------*/
+.showlove {
+	width: 372px;
+}
+.showlove_content {
+	width: 342px;
+	padding-left: 30px;
+}
+.showlove_content li {
+	margin-bottom: 9px;
+}
+.showlove_content li img {
+	float: left;
+	width: 78px;
+	border-radius: 2px;
+	border: 1px solid #dbdbdb;
+}
+.showlove_content li div {
+	float: right;
+	width: 252px;
+	margin-left: 10px;
+}
+.showlove_content li div h4 {
+	background: url("../images/showlove/h4_bg.gif") no-repeat left center;
+	padding-left: 10px;
+}
+.showlove_content li div h4 a {
+	color: #f86e9e;
+}
+.showlove_content li span {
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 20px;
+	clear: left;
+	background-color: #f7f7f7;
+}
+
+/*---------------------------pic--------------------*/
+
+.pic {
+	width: 342px;
+	padding-left: 30px;
+}
+.pic img {
+	height: 324px;
+}
+
+/*---------------------------footer--------------------*/
+
+#footer {}
+.footer_content {
+	background-color: #333333;
+
+}
+.footer_bg {
+
+}
+.footer_bg img {
+	margin-top: 15px;
+}
+.aboutnalan {
+	float: left;
+	width: 303px;
+	text-align: center;
+}
+.aboutnalan p{
+	text-indent: 2em;
+	margin-top: 15px;
+}
+.ourteam {
+	float: left;
+	width: 394px;
+	background: url("../images/footer/ourteam_bg.gif") no-repeat left center;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.quickentry {
+	float: left;
+	width: 303px;
+	text-align: center;
+}
+.quickentry p {
+	margin-top: 15px;
+	color: #b8b8b8;
+	height: 20px;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+.adress {
+	width: 100%;
+	height: 102px;
+	background: url("../images/footer/adress_bg.gif") repeat-x;
+	text-align: center;
+	padding-top: 12px;
+}
+.adress p {
+	color: #919191;
+	height: 28px;
+	line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
